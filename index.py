@@ -39,7 +39,6 @@ def questionario_tecnologia():
 
     print("\nAgora vamos analisar suas respostas para determinar a área de tecnologia mais adequada para você.\n")
 
-    # Calculando a pontuação para cada área com base nas respostas
     pontuacao_desenvolvimento_backend = (
         respostas[0] * 0.8 + 
         respostas[2] * 0.6 + 
